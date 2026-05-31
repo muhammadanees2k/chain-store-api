@@ -1,29 +1,31 @@
-# Python / Django
+# Python
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
-*.sqlite3
-*.log
-
-# Environments & Secrets
-.env
-.venv
+*.pyo
+*.pyd
+.Python
 env/
 venv/
-Pipfile.lock
+.venv/
 
-# OS Artifacts
+# Django
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+
+# Environment Variables (KEEP YOUR .env SECRET!)
+.env
+
+# Docker / MySQL
+mysql_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
-
-# VS Code
-.vscode/
-
-# Celery
-celerybeat-schedule.db
-celerybeat.pid
-
-# Testing
-.pytest_cache/
-htmlcov/
-.coverage
