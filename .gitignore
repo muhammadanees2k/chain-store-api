@@ -1,0 +1,29 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.log
+
+# Environments & Secrets
+.env
+.venv
+env/
+venv/
+Pipfile.lock
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Celery
+celerybeat-schedule.db
+celerybeat.pid
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
