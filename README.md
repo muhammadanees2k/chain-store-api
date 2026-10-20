@@ -2,9 +2,9 @@
 
 A high-performance, production-ready REST API engineered for a modern e-commerce platform. Built with Django REST Framework, featuring a dual-gateway financial architecture that supports traditional Fiat payments (Stripe) and decentralized Web3 payments (MetaMask/Ethereum).
 
-***Live API Documentation:*** http://54.253.53.16/api/docs/
+***Live API Documentation:*** http://ec2-13-239-133-13.ap-southeast-2.compute.amazonaws.com//api/docs/
 
-***Live Landing Page:*** http://54.253.53.16
+***Live Landing Page:*** http://ec2-13-239-133-13.ap-southeast-2.compute.amazonaws.com/
 
 ## Architecture & Tech Stack
 TECHNOLOGY STACK
